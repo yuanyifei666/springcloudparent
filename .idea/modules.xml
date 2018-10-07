@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-api/springcloudapi.iml" filepath="$PROJECT_DIR$/spring-cloud-api/springcloudapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-8082/springcloudconsumer8082.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-8082/springcloudconsumer8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-cusumer-feign/springcloudcusumerfeign.iml" filepath="$PROJECT_DIR$/spring-cloud-cusumer-feign/springcloudcusumerfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-cusumer-hystrix/springcloudcusumerhystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-cusumer-hystrix/springcloudcusumerhystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka7002/springcloudeureka7002.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka7002/springcloudeureka7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka7003/springcloudeureka7003.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka7003/springcloudeureka7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrixdashboard/springcloudhystrixdashboard.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrixdashboard/springcloudhystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudparent.iml" filepath="$PROJECT_DIR$/springcloudparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-8081/springcloudprovider8081.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-8081/springcloudprovider8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-8082/springcloudprovider8082.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-8082/springcloudprovider8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-8083/springcloudprovider8083.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-8083/springcloudprovider8083.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-hystrix/springcloudproviderhystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-hystrix/springcloudproviderhystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/springcloudzuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/springcloudzuul.iml" />
+    </modules>
+  </component>
+</project>

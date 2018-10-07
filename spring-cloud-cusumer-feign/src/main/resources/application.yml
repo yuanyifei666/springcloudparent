@@ -1,0 +1,11 @@
+#配置容器启动的端口
+server:
+  port: 8091
+spring:
+  application:
+    name: spring-cloud-cusumer-feign
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://www.eureka7001.com:7001/eureka/,http://www.eureka7002.com:7002/eureka/,http://www.eureka7003.com:7003/eureka/ #eureka的服务地址

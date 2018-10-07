@@ -1,0 +1,22 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: spring-cloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.eureka7001.com:7001/eureka/,http://www.eureka7002.com:7002/eureka/,http://www.eureka7003.com:7003/eureka/  #eureka的服务地址
+  instance:
+    prefer-ip-address: true
+    instance-id: spring-cloud-zuul0
+
+
+#配置zuul的请求映射规则
+zuul:
+  routes:
+    department.serviceId: spring-cloud-provider
+    department.path: /dept/**
+  ignored-services: "*"  #不理睬的请求
+  prefix: /cloud #访问的路径前缀
+

@@ -1,0 +1,12 @@
+server:
+  port: 7001
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://localhost:${server.port}/eureka/
+      defaultZone: http://www.eureka7002.com:7002/eureka/,http://www.eureka7003.com:7003/eureka/ #eureka提供注册的和发现服务的地址
+    fetch-registry: false #配置不把发现eureka中的服务
+    register-with-eureka: false #配置不把自身注册到eureka中
+spring:
+  application:
+    name: spring-cloud-eureka  #配置应用的名称

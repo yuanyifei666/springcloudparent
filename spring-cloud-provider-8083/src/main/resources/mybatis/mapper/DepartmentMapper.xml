@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuan.springcloud.mapper.DepartmentMapper">
+
+    <!--向Department表中插入一条数据-->
+    <insert id="insert" parameterType="department">
+        insert into department(dname,db_source) values(#{dname},database());
+    </insert>
+
+    <!--根据id删除一条数据*-->
+    <delete id="delete" parameterType="int">
+        delete from department where deptno = #{value};
+    </delete>
+
+    <!--更新一条数据-->
+    <update id="update" parameterType="department">
+        update department set dname = #{dname} where deptno = #{deptno};
+    </update>
+
+    <!--根据id查询数据-->
+    <select id="findById" parameterType="int" resultType="department">
+        select * from department where deptno = #{value };
+    </select>
+    <!--查询department表中的所有的数据-->
+    <select id="findAll" resultType="department">
+        select * from department;
+    </select>
+
+
+</mapper>
