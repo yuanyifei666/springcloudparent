@@ -1,0 +1,13 @@
+server:
+  port: 4405
+
+#配置连接数据库
+spring:
+  application:
+    name: spring-cloud-provider
+  cloud:
+    config:
+       uri: http://localhost:4403
+       label: master
+       name: spring-cloud-provider-config
+       profile: dev

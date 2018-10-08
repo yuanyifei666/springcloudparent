@@ -1,0 +1,11 @@
+server:
+  port: 4404
+spring:
+  application:
+    name: spring-cloud-eureka-config-4404
+  cloud:
+    config:
+      uri: http://localhost:4403
+      name: spring-cloud-eureka-config
+      label: master
+      profile: dev
