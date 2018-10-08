@@ -1,0 +1,22 @@
+server:
+  port: 4403
+spring:
+  application:
+    name: spring-cloud-config-4403
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yuanyifei666/springcloud-config.git
+#  profiles:
+#    active: dev
+#---
+#spring:
+#  profiles: dev
+#  application:
+#    name: spring-cloud-config-4403-dev
+#---
+#spring:
+#  profiles: prod
+#  application:
+#    name: spring-cloud-config-4403-prod
